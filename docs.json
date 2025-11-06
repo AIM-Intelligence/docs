@@ -13,6 +13,7 @@
   },
   "favicon": "/favicon.svg",
   "logo": {
+    
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
@@ -30,7 +31,7 @@
             ]
           },
           {
-            "group": "관찰성",
+            "group": "observability",
             "pages": [
               "ko/observability/overview",
               "ko/observability/dashboard",
@@ -40,7 +41,7 @@
             ]
           },
           {
-            "group": "평가",
+            "group": "evaluation",
             "pages": [
               "ko/evaluation/overview",
               "ko/evaluation/scores",
@@ -49,7 +50,7 @@
             ]
           },
           {
-            "group": "가드레일",
+            "group": "guardrails",
             "pages": [
               "ko/guardrails/overview",
               "ko/guardrails/aim-supervisor",
@@ -59,7 +60,7 @@
             ]
           },
           {
-            "group": "설정",
+            "group": "settings",
             "pages": [
               "ko/configuration/project-settings",
               "ko/configuration/environments",
