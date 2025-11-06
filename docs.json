@@ -22,8 +22,6 @@
             "pages": [
               "index",
               "quickstart",
-              "getting-started/introduction",
-              "getting-started/architecture",
               "getting-started/core-concepts"
             ]
           },
