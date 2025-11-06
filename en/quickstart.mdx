@@ -1,0 +1,92 @@
+---
+title: "Quickstart"
+description: "Start monitoring your AI models in 5 minutes"
+icon: "rocket"
+---
+
+## Get started in three steps
+
+Set up your first AIM Monitor project and start tracking AI model interactions.
+
+### Step 1: Create Organization and Project
+
+<AccordionGroup>
+  <Accordion icon="building" title="Create your organization">
+    1. Navigate to the [Organizations](https://monitor.aim-intelligence.com) page
+    2. Click "Create Organization"
+    3. Enter your organization name
+    4. Confirm creation
+  </Accordion>
+  <Accordion icon="folder" title="Create your first project">
+    1. Within your organization, click "Create Project"
+    2. Enter a project name
+    3. Select your environment (default, production, staging, etc.)
+    4. Copy your Project API Key - you'll need this in the next step
+
+    <Tip>Keep your API key secure and never commit it to version control.</Tip>
+  </Accordion>
+</AccordionGroup>
+
+### Step 2: Send Your First Trace
+
+<AccordionGroup>
+  <Accordion icon="code" title="Using the API">
+    Send a trace to AIM Monitor using a simple API call:
+
+    ```bash
+    curl -X POST https://api.aim-intelligence.com/v1/traces \
+      -H "Authorization: Bearer YOUR_API_KEY" \
+      -H "Content-Type: application/json" \
+      -d '{
+        "name": "chat-completion",
+        "input": "What is AI monitoring?",
+        "output": "AI monitoring is...",
+        "metadata": {
+          "model": "gpt-4",
+          "user_id": "user123"
+        }
+      }'
+    ```
+
+    <Tip>Replace `YOUR_API_KEY` with the API key from Step 1.</Tip>
+  </Accordion>
+</AccordionGroup>
+
+### Step 3: View Your Data
+
+<Accordion icon="chart-line" title="Explore your dashboard">
+  1. Navigate to your project dashboard
+  2. View your first trace in the [Tracing](/en/observability/tracing) table
+  3. Explore metrics, costs, and performance data
+  4. Set up filters to analyze specific data
+
+  <Tip>Data typically appears within seconds of being sent.</Tip>
+</Accordion>
+
+## Next steps
+
+Now that you have AIM Monitor running, explore these features:
+
+<CardGroup cols={2}>
+
+<Card title="Understand Core Concepts" icon="lightbulb" href="/en/getting-started/core-concepts">
+  Learn about traces, sessions, users, and scores.
+</Card>
+
+<Card title="Explore Observability" icon="chart-line" href="/en/observability/overview">
+  Dive into tracing, sessions, and user analytics.
+</Card>
+
+<Card title="Set Up Evaluation" icon="star" href="/en/evaluation/overview">
+  Start scoring and evaluating your AI outputs.
+</Card>
+
+<Card title="Configure Guardrails" icon="shield-halved" href="/en/guardrails/overview">
+  Integrate with AIM Supervisor for safety policies.
+</Card>
+
+</CardGroup>
+
+<Note>
+  **Need help?** Contact our support team at [support@aim-intelligence.com](mailto:support@aim-intelligence.com)
+</Note>

@@ -2,6 +2,10 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "AIM Monitor",
+  "i18n": {
+    "default": "ko",
+    "languages": ["ko", "en"]
+  },
   "colors": {
     "primary": "#0EA5E9",
     "light": "#38BDF8",
@@ -20,49 +24,49 @@
           {
             "group": "Getting Started",
             "pages": [
-              "index",
-              "quickstart",
-              "getting-started/core-concepts"
+              "ko/index",
+              "ko/quickstart",
+              "ko/getting-started/core-concepts"
             ]
           },
           {
             "group": "Observability",
             "pages": [
-              "observability/overview",
-              "observability/dashboard",
-              "observability/tracing",
-              "observability/sessions",
-              "observability/users"
+              "ko/observability/overview",
+              "ko/observability/dashboard",
+              "ko/observability/tracing",
+              "ko/observability/sessions",
+              "ko/observability/users"
             ]
           },
           {
             "group": "Evaluation",
             "pages": [
-              "evaluation/overview",
-              "evaluation/scores",
-              "evaluation/llm-as-judge",
-              "evaluation/human-annotation"
+              "ko/evaluation/overview",
+              "ko/evaluation/scores",
+              "ko/evaluation/llm-as-judge",
+              "ko/evaluation/human-annotation"
             ]
           },
           {
             "group": "Guardrails",
             "pages": [
-              "guardrails/overview",
-              "guardrails/aim-supervisor",
-              "guardrails/policy-management",
-              "guardrails/policy-types",
-              "guardrails/playground"
+              "ko/guardrails/overview",
+              "ko/guardrails/aim-supervisor",
+              "ko/guardrails/policy-management",
+              "ko/guardrails/policy-types",
+              "ko/guardrails/playground"
             ]
           },
           {
             "group": "Configuration",
             "pages": [
-              "configuration/project-settings",
-              "configuration/environments",
-              "configuration/team-management",
-              "configuration/integrations",
-              "configuration/data-export",
-              "configuration/audit-logs"
+              "ko/configuration/project-settings",
+              "ko/configuration/environments",
+              "ko/configuration/team-management",
+              "ko/configuration/integrations",
+              "ko/configuration/data-export",
+              "ko/configuration/audit-logs"
             ]
           }
         ]
@@ -73,18 +77,18 @@
           {
             "group": "API Documentation",
             "pages": [
-              "api-reference/introduction"
+              "ko/api-reference/introduction"
             ]
           },
           {
             "group": "Endpoints",
             "pages": [
-              "api-reference/endpoints/traces",
-              "api-reference/endpoints/sessions",
-              "api-reference/endpoints/users",
-              "api-reference/endpoints/scores",
-              "api-reference/endpoints/evaluations",
-              "api-reference/endpoints/webhooks"
+              "ko/api-reference/endpoints/traces",
+              "ko/api-reference/endpoints/sessions",
+              "ko/api-reference/endpoints/users",
+              "ko/api-reference/endpoints/scores",
+              "ko/api-reference/endpoints/evaluations",
+              "ko/api-reference/endpoints/webhooks"
             ]
           }
         ]
@@ -95,37 +99,37 @@
           {
             "group": "Tutorials",
             "pages": [
-              "tutorials/monitored-chatbot",
-              "tutorials/setup-guardrails",
-              "tutorials/cost-optimization",
-              "tutorials/evaluation-workflow"
+              "ko/tutorials/monitored-chatbot",
+              "ko/tutorials/setup-guardrails",
+              "ko/tutorials/cost-optimization",
+              "ko/tutorials/evaluation-workflow"
             ]
           },
           {
             "group": "Best Practices",
             "pages": [
-              "best-practices/monitoring",
-              "best-practices/evaluation-strategy",
-              "best-practices/data-privacy",
-              "best-practices/performance",
-              "best-practices/cost-management"
+              "ko/best-practices/monitoring",
+              "ko/best-practices/evaluation-strategy",
+              "ko/best-practices/data-privacy",
+              "ko/best-practices/performance",
+              "ko/best-practices/cost-management"
             ]
           },
           {
             "group": "Troubleshooting",
             "pages": [
-              "troubleshooting/common-issues",
-              "troubleshooting/debugging-guide",
-              "troubleshooting/faq"
+              "ko/troubleshooting/common-issues",
+              "ko/troubleshooting/debugging-guide",
+              "ko/troubleshooting/faq"
             ]
           },
           {
             "group": "Reference",
             "pages": [
-              "reference/glossary",
-              "reference/data-model",
-              "reference/system-limits",
-              "reference/changelog"
+              "ko/reference/glossary",
+              "ko/reference/data-model",
+              "ko/reference/system-limits",
+              "ko/reference/changelog"
             ]
           }
         ]
