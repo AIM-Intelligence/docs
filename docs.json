@@ -1,68 +1,133 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "AIM Supervisor",
+  "name": "AIM Monitor",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0EA5E9",
+    "light": "#38BDF8",
+    "dark": "#0284C7"
   },
   "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Product Guide",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "getting-started/introduction",
+              "getting-started/architecture",
+              "getting-started/core-concepts"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Observability",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "observability/overview",
+              "observability/dashboard",
+              "observability/tracing",
+              "observability/sessions",
+              "observability/users"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Evaluation",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "evaluation/overview",
+              "evaluation/scores",
+              "evaluation/llm-as-judge",
+              "evaluation/human-annotation"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Guardrails",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "guardrails/overview",
+              "guardrails/aim-supervisor",
+              "guardrails/policy-management",
+              "guardrails/policy-types",
+              "guardrails/playground"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/project-settings",
+              "configuration/environments",
+              "configuration/team-management",
+              "configuration/integrations",
+              "configuration/data-export",
+              "configuration/audit-logs"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "API Reference",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "API Documentation",
             "pages": [
               "api-reference/introduction"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Endpoints",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/endpoints/traces",
+              "api-reference/endpoints/sessions",
+              "api-reference/endpoints/users",
+              "api-reference/endpoints/scores",
+              "api-reference/endpoints/evaluations",
+              "api-reference/endpoints/webhooks"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Tutorials",
+            "pages": [
+              "tutorials/monitored-chatbot",
+              "tutorials/setup-guardrails",
+              "tutorials/cost-optimization",
+              "tutorials/evaluation-workflow"
+            ]
+          },
+          {
+            "group": "Best Practices",
+            "pages": [
+              "best-practices/monitoring",
+              "best-practices/evaluation-strategy",
+              "best-practices/data-privacy",
+              "best-practices/performance",
+              "best-practices/cost-management"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "troubleshooting/common-issues",
+              "troubleshooting/debugging-guide",
+              "troubleshooting/faq"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "reference/glossary",
+              "reference/data-model",
+              "reference/system-limits",
+              "reference/changelog"
             ]
           }
         ]
@@ -71,57 +136,50 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Main Site",
+          "href": "https://aim-intelligence.com",
+          "icon": "house"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Dashboard",
+          "href": "https://monitor.aim-intelligence.com",
+          "icon": "chart-line"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Support",
+          "href": "mailto:support@aim-intelligence.com",
+          "icon": "headset"
         }
       ]
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@aim-intelligence.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://monitor.aim-intelligence.com"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/aim-intelligence",
+      "linkedin": "https://linkedin.com/company/aim-intelligence"
     }
   }
 }
