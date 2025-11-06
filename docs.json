@@ -19,10 +19,10 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Product Guide",
+        "tab": "제품 가이드",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "시작하기",
             "pages": [
               "ko/index",
               "ko/quickstart",
@@ -30,7 +30,7 @@
             ]
           },
           {
-            "group": "Observability",
+            "group": "관찰성",
             "pages": [
               "ko/observability/overview",
               "ko/observability/dashboard",
@@ -40,7 +40,7 @@
             ]
           },
           {
-            "group": "Evaluation",
+            "group": "평가",
             "pages": [
               "ko/evaluation/overview",
               "ko/evaluation/scores",
@@ -49,7 +49,7 @@
             ]
           },
           {
-            "group": "Guardrails",
+            "group": "가드레일",
             "pages": [
               "ko/guardrails/overview",
               "ko/guardrails/aim-supervisor",
@@ -59,7 +59,7 @@
             ]
           },
           {
-            "group": "Configuration",
+            "group": "설정",
             "pages": [
               "ko/configuration/project-settings",
               "ko/configuration/environments",
@@ -72,16 +72,16 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "API 레퍼런스",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "API 문서",
             "pages": [
               "ko/api-reference/introduction"
             ]
           },
           {
-            "group": "Endpoints",
+            "group": "엔드포인트",
             "pages": [
               "ko/api-reference/endpoints/traces",
               "ko/api-reference/endpoints/sessions",
@@ -94,10 +94,10 @@
         ]
       },
       {
-        "tab": "Resources",
+        "tab": "리소스",
         "groups": [
           {
-            "group": "Tutorials",
+            "group": "튜토리얼",
             "pages": [
               "ko/tutorials/monitored-chatbot",
               "ko/tutorials/setup-guardrails",
@@ -106,7 +106,7 @@
             ]
           },
           {
-            "group": "Best Practices",
+            "group": "모범 사례",
             "pages": [
               "ko/best-practices/monitoring",
               "ko/best-practices/evaluation-strategy",
@@ -116,7 +116,7 @@
             ]
           },
           {
-            "group": "Troubleshooting",
+            "group": "문제 해결",
             "pages": [
               "ko/troubleshooting/common-issues",
               "ko/troubleshooting/debugging-guide",
@@ -124,7 +124,7 @@
             ]
           },
           {
-            "group": "Reference",
+            "group": "참조",
             "pages": [
               "ko/reference/glossary",
               "ko/reference/data-model",
